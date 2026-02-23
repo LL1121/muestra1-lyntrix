@@ -1,0 +1,101 @@
+# ========================================
+# LYNTRIX - .gitignore
+# ========================================
+
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de Sistema
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Archivos de Compilación
+dist/
+build/
+*.min.css
+*.min.js
+*.map
+
+# Variables de Entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cachés
+.cache/
+.eslintcache
+
+# Archivos Temporales
+*.tmp
+*.bak
+.temp/
+
+# Configuraciones Locales
+local-config.js
+private.json
+
+# Build Output (si usas bundler)
+.parcel-cache/
+.next/
+.nuxt/
+dist/
+out/
+
+# Archivos específicos del proyecto
+config.local.js
+secrets.json
+
+# Editor Temporal
+*~
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+ehthumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Node
+node_modules/
+
+# Production (si aplica)
+/build/
+/dist/
+/out/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.DS_Store
+npm-debug.log
