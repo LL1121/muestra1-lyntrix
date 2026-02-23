@@ -200,6 +200,14 @@ header {
     animation: glow 3s ease-in-out infinite;
 }
 
+.logo-title {
+    height: 1.2em;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.3em;
+}
+
 @keyframes glow {
     0%, 100% {
         filter: drop-shadow(0 0 10px rgba(0, 209, 255, 0.3));
