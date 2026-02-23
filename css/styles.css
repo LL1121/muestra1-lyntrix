@@ -73,11 +73,11 @@ header {
     gap: 0.5rem;
 }
 
-.logo-icon {
+.logo-img {
     width: 2rem;
     height: 2rem;
+    object-fit: contain;
     border-radius: 0.5rem;
-    background: linear-gradient(135deg, var(--teal), var(--teal-dark));
 }
 
 .logo-text {
