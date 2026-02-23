@@ -202,6 +202,19 @@ header {
     margin: 0 0.3em;
 }
 
+.logo-title-hero {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    margin: 0 auto 1rem;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+
+.hero-text {
+    display: block;
+}
+
 @keyframes glow {
     0%, 100% {
         filter: drop-shadow(0 0 10px rgba(0, 209, 255, 0.3));
