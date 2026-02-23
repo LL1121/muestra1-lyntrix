@@ -74,8 +74,8 @@ header {
 }
 
 .logo-img {
-    width: 2rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
     object-fit: contain;
     border-radius: 0.5rem;
 }
@@ -195,7 +195,7 @@ header {
 }
 
 .logo-title {
-    height: 1.2em;
+    height: 1.8em;
     width: auto;
     display: inline-block;
     vertical-align: middle;
